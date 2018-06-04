@@ -1,0 +1,18 @@
+{
+  "name": "directro",
+  "version": "1.0.0",
+  "description": "An app to see what movies are showing and buy tickets",
+  "main": "server/index.js",
+  "repository": "https://github.com/guy-stapleton/directro.git",
+  "author": "Guy Stapleton <guy.stapleton+1@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node server/index"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
