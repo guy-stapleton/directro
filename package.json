@@ -8,8 +8,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node server/index",
-    "dev": "nodemon server/index"
+    "start": "node server/index & webpack --watch",
+    "dev": "nodemon server/index & webpack --watch"
   },
   "babel": {
     "presets": [
