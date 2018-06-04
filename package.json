@@ -7,6 +7,9 @@
   "author": "Guy Stapleton <guy.stapleton+1@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "node server/index"
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
